@@ -1,0 +1,38 @@
+import time 
+print('Welcome to my calculator')
+time.sleep(1)
+operation = input("What kind of operation would you like to perform? (+, -, /, *)")
+if operation == "+":
+    print("Loading...")
+    time.sleep(1)
+    a = input("First number: ")
+    b = input("Second number: ")
+    print("Loading...")
+    time.sleep(1)
+    print("The solution is ", int(a) + int(b))
+elif operation == "-":
+    print("Loading...")
+    time.sleep(1)
+    a = input("First number: ")
+    b = input("Second number: ")
+    print("Loading...")
+    time.sleep(1)
+    print("The solution is ", int(a) - int(b))
+elif operation == "*":
+    print("Loading...")
+    time.sleep(1)
+    a = input("First number: ")
+    b = input("Second number: ")
+    print("Loading...")
+    time.sleep(1)
+    print("The solution is ", int(a) * int(b))
+elif operation == "/":
+    print("Loading...")
+    time.sleep(1)
+    a = input("First number: ")
+    b = input("Second number: ")
+    print("Loading...")
+    time.sleep(1)
+    print("The solution is ", int(a) / int(b))
+else:
+    print('Invalid input, please try again')
