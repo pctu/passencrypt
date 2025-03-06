@@ -56,7 +56,7 @@ def password_encryptor():
         slow_typing("Closing PyEncrypt...", 0.03)
         time.sleep(1)
     else:
-        slow_typing("Restarting PyEncrypt...", 0.03)
+        slow_typing("Restarting PyEncrypt..", 0.03)
         time.sleep(1)
         password_encryptor()
 
